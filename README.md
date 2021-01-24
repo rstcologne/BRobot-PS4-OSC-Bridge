@@ -24,7 +24,7 @@ If you connect the ESP to your home WIFI (because your EVO 2 is also connected t
 
 You can also increase or decrease a dead-zone around the stick center. This is implemented to really stop when sticks are centered even if they are not fully hitting the center. Consider it to be a poor man's controller calibration. 
 
-You can connect a LED to GPIO 32. It light's up when the WIFI connection was successful. 
+You can connect a LED to GPIO 32. It lights up when the WIFI connection was successful. 
 
 Also please configure the board you are using in platformio.ini
 
@@ -36,15 +36,15 @@ Once you flashed an ESP32 board (Tested with DEVkITC V4 and bare ESP32 WROOM mod
 3. Switch on the PS4 controller, once connected the controller LED should light up green
 
 ## Controller assignment
-Throttle: Left stick up and down
-Steering: Right stick left and right
-Cross button: Trigger the arm
-Circle button: Toggle "pro" mode
-Triangle button: Toggle "normal" mode
+- Throttle: Left stick up and down
+- Steering: Right stick left and right
+- Cross button: Trigger the arm
+- Circle button: Toggle "pro" mode
+- Triangle button: Toggle "normal" mode
 
 ### LED:
-Off: Controller not connected
-Green: Controller connected and normal mode active
-Red: Controller connected and pro mode active
+- Off: Controller not connected
+- Green: Controller connected and normal mode active
+- Red: Controller connected and pro mode active
 
 
