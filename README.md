@@ -1,6 +1,4 @@
 # BRobot-PS4-OSC-Bridge
-Control the BRobot EVO2 with a PS4 Controller (ESP32 Board required)
-
 This code can be run on an ESP32 board and allows controlling a BRobot EVO 2 with a PS4 controller. 
 
 I compile the program with VS Code and PlatformIO, however the Arduino IDE should also work. The steps below assume VS Code and PlatformIO
